@@ -31,10 +31,10 @@
 
 function theBeatlesPlay (musicians,instruments){
   var songs =[];
-  for (i = 0; i < musicians.length; i++){
+  for (var i = 0; i < musicians.length; i++){
     songs.push(musicians[i] + " plays " + instruments[i])
-    // console.log(musicians, "this is music");
-    // console.log(instruments, "this is instrument")
+    console.log(musicians, "this is music");
+    console.log(instruments, "this is instrument")
   }
   return songs;
 }
