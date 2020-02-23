@@ -32,8 +32,7 @@
 function theBeatlesPlay (musicians,instruments){
   var songs =[];
   for (i = 0; i < musicians.length; i++){
-    songs.push(`"${musicians} plays ${instruments}"`.)
-    
+    songs.push(`${musicians} plays ${instruments}`)
   }
   
 }
