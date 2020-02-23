@@ -30,7 +30,11 @@
 // }
 
 function theBeatlesPlay (musicians,instruments){
-  for (i = 0; i < cars.length; i++)
+  var songs =[];
+  for (i = 0; i < musicians.length; i++){
+    
+    
+  }
   
 }
 
