@@ -42,7 +42,10 @@ function theBeatlesPlay (musicians,instruments){
 
 function johnLennonFacts(arg){
   fact = [];
-  
+  while (i < 10) {
+  text += "The number is " + i;
+  i++;
+}
   
 }
 
