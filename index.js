@@ -34,7 +34,7 @@ function theBeatlesPlay (musicians,instruments){
   for (i = 0; i < musicians.length; i++){
     songs.push(`${musicians} plays ${instruments}`)
   }
-  
+  return songs;
 }
 
 
